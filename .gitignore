@@ -1,0 +1,26 @@
+# Environment/credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/credentials.json
+**/.credentials.json
+**/service-account*.json
+
+# local AI and editor state
+.jam/
+.claude/settings.local.json
+.claude/projects/
+.DS_Store
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+coverage/
+*.log
+
+# research-only scratch and user secrets
+.private/
+local_secrets/
+artifacts/private/

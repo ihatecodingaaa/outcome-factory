@@ -1,0 +1,27 @@
+# Repository-local line-ending rules. These override the machine-wide
+# core.autocrlf=true, so the index and every working tree store LF. That keeps
+# file digests identical across Windows, Linux CI and judges' checkouts.
+* text=auto eol=lf
+
+# Explicitly text (always LF)
+*.md      text eol=lf
+*.sha256  text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.toml    text eol=lf
+*.txt     text eol=lf
+*.sh      text eol=lf
+*.ps1     text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# Binary (never normalized or diffed as text)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.tar  binary
