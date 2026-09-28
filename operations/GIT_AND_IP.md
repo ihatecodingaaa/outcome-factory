@@ -1,4 +1,4 @@
-# GitHub owner-only authorship, privacy, and staged releases
+# GitHub authorship, privacy, and staged releases
 
 **Verified connector capability on 24 Sep:** linked GitHub can list `ihatecodingaaa`'s existing private repos. There is no demonstrated repo-creation action in the available connector. Have Lucas create a new private repo through his authenticated local `gh` CLI or GitHub UI; no collaborator invites are needed for ChatGPT/Claude to use his own authorization, but new repo must be visible to ChatGPT connector. Existing repositories are NOT to be repurposed.
 
@@ -22,6 +22,8 @@ gh repo create ihatecodingaaa/outcome-factory --private --source . --remote orig
 ```
 
 **No AI co-author trailer:** forbid `Co-authored-by:` and `Signed-off-by:` trailers from agent templates unless Lucas explicitly requests otherwise. Validate `git log -1 --format=full` and `.mailmap` if later used. Git author metadata is distinct from disclosing AI assistance to hackathon judges; report that accurately.
+
+**Commit identities:** Lucas's own commits use his verified identity. Seat commits use the seat's own identity, set per commit as `CLAUDE.md` and `operations/BAND_RUNBOOK.md` specify, e.g. `git -c user.name="developer-x7jj (agent seat)" -c user.email="developer-x7jj@seats.dark-factory.invalid" commit …`; the organizer guide likewise says to configure Git names and emails for each seat. Never rewrite seat commits to change their authorship.
 
 **No secrets:** `.gitignore` includes `.env*`, credentials and research transcripts with secrets. Example `.env.example` may contain placeholders only. Commit scans and `git diff --cached --check` before every push. Do not store any AWS/Nebius promo code, BAND invite token, account number or password in repo.
 

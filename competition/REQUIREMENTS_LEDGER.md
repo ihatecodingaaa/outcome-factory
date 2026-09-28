@@ -1,5 +1,9 @@
 # Competition requirements and verification ledger
 
+**Kickoff status (recorded 2026-09-28):** the organizer's official kickoff package has been released, and the current organizer baseline is `https://github.com/band-ai/dark-factory-wearedevs` at `803560d2a678ace1414465c098eb0ab5380ffade` on `main` (committed 2026-09-26 14:47:51 UTC). Lucas accepted that commit as authoritative on 2026-09-26 22:25 UTC. On 2026-09-28 at 14:55 UTC, `git ls-remote` still returned it for both `HEAD` and `main`. The architect seat's audit of the package, including that acceptance and a rule-by-rule reading (§4), is `C:\Users\lucas\Projects\dark-factory-2026\notes\KICKOFF_AUDIT.md`, outside this repo.
+
+This records the official challenge pack for the pre-kickoff condition in `CLAUDE.md`, so that condition no longer blocks work; the organizer's rules at that commit govern instead. The table below is still the 24 September snapshot. It has not been re-mapped against the package, and this entry changes none of its statuses.
+
 **Source snapshot:** 24 September 2026. These are selected confirmed public conditions, not an assertion that the unpublished BAND four-stage pack has been inspected. At kickoff, replace placeholders with the actual published requirements. Never convert an assumption to `PASS` based on our own interpretation.
 
 Legend: `RULE` official published; `USER_SCREENSHOT` user's event portal evidence; `UNKNOWN` unresolved; `PLANNED` implementation has not occurred.

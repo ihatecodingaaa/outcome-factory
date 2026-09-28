@@ -1,5 +1,7 @@
 # Paste into EXISTING Dark Factory Architect Claude Code session
 
+> **Historical, pre-kickoff (24 September 2026):** this prompt ran the Phase 0 review, when the room had three seats and `mandates/` held three files. There are now four seats, each with a mandate; do not reuse this prompt after kickoff.
+
 We are performing a **PRE-KICKOFF READ-ONLY DESIGN REVIEW** for Lucas's single-human entry across Dark Factory, Amazon Alexa+, and Nebius/NVIDIA. BAND's existing three-agent room and identities must be reused; do not create new seats or rooms. First read the entirety of this pack (`README.md`, competition ledger/questions, product thesis, competitor matrix, architecture, threat model, experiment protocol, all three mandates, UX storyboard) plus the previously saved Three-Hackathon Research and Execution Blueprint if locally available.
 
 Scope: design/research only. DO NOT implement Pocketful, challenge-specific tests, challenge-stage assumptions, AWS or Nebius deployments, or code that would enter a competition build until organizer pre-build rules are clarified or kickoff begins. DO NOT push to GitHub, change global Claude settings, install plugins, create external resources, or incur spend.
