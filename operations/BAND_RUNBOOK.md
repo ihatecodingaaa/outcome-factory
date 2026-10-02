@@ -6,7 +6,8 @@
 - Developer: `2201904f/developer-x7jj`
 - Product Engineer: `2201904f/product-engineer-x7jq` (added 2026-09-27; handle confirmed by Lucas)
 - Independent Verifier: `2201904f/independent-verifier-x7j` (BAND display name `independent-verifier-x7jk`; the registered handle ends in `x7j`, per `jam chat participants` on 24 Sep 2026)
-- Existing room: `bfc167f5-cc0b-4575-bf11-c15d5fbee3e8`
+- Existing room: `0da0c792-dbea-4ad9-a9b3-6aa8becaaaab`, the active development room from TABLEKEEPER-WOW-02 on (Lucas created it; recorded 2 Oct 2026 on his typed confirmation). "The existing room" below means this room.
+- Historical room, read-only: `bfc167f5-cc0b-4575-bf11-c15d5fbee3e8`. It reached BAND's 10,000-message limit on 1 Oct 2026 (TABLEKEEPER-WOW-01 ended BLOCKED). Never post to, modify or delete it.
 
 These are internal handles and historical connection status; verify current state on reattach. The room handle/session shown by BAND is authoritative if it differs from historical terminal output.
 
